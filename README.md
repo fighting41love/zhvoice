@@ -18,7 +18,7 @@ zhvoice语料由[智浪淘沙](https://github.com/zhilangtaosha)清洗和处理�
 - 用python的工具模块[**aukit**](https://github.com/KuangDD/aukit)处理音频，降噪和去除静音。
 
 ```
-pip install -U aukit
+pip install aukit
 
 from aukit import remove_noise, remove_silence
 ```
@@ -26,7 +26,7 @@ from aukit import remove_noise, remove_silence
 - 用python的工具模块[**phkit**](https://github.com/KuangDD/phkit)处理文本，文本正则化和汉字转拼音。
 
 ```
-pip install -U phkit
+pip install phkit
 
 from phkit import text_to_sequence, pinyin
 ```
