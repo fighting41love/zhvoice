@@ -1,12 +1,18 @@
 # 中文语音语料
 
-**zhvoice**
+**zhvoice**: Chinese voice corpus
 
-由8个开源数据集，经过降噪和去除静音处理而成，音频约900小时，文本约113万条，共有约1300万字。
+tips: 中文或汉语的语言简称缩写是**zh**。
 
-zhvoice数据集比较原始数据而言，更加清晰和自然，减少了噪声的干扰，减少了因说话人说话不连贯造成的不自然。
+## 语料简介
 
-zhvoice数据集包含文本、语音和说话人3个方面的信息，可适用于多种语音相关的任务。
+zhvoice语料由8个开源数据集，经过降噪和去除静音处理而成，音频约900小时，文本约113万条，共有约1300万字。
+
+zhvoice语料比较原始数据而言，更加清晰和自然，减少了噪声的干扰，减少了因说话人说话不连贯造成的不自然。
+
+zhvoice语料包含文本、语音和说话人3个方面的信息，可适用于多种语音相关的任务。
+
+zhvoice语料由[智浪淘沙](https://github.com/zhilangtaosha)清洗和处理。
 
 ## 处理方法
 - 用python的工具模块[**aukit**](https://github.com/KuangDD/aukit)处理音频，降噪和去除静音。
@@ -42,13 +48,22 @@ from aukit import linear_spectrogram, mel_spectrogram, world_spectrogram
 - 用于语音识别模型，用语音和文本，可以适当加噪声。
 
 
+## 下载路径
+
+百度网盘：
+
+链接: https://pan.baidu.com/s/1uHXE2WIt0kdm_dPSej-TtA 
+
+提取码: i5b3
+
+
 ## 文件介绍
 
-- info：用到的源数据信息。
+- info：各个数据集的源数据信息，包含源数据出处、简介等。
 - text：语音语料对应的文本，包含文本、相对路径、说话人、参考拼音等信息。
 - sample：样本语音，每个说话人一个音频。
 - metadata：语料元数据，一行对应一个音频文件，每行的格式`音频相对路径\t汉字文本\n`。
-- zh*：zh开头的文件是语料文件，目录结构：根目录下包含metadata.csv和语音文件目录。一个说话人对应一个子目录，音频是mp3格式。metadata.csv的数据结构和metadata的一样，记录当前数据集的信息。
+- zh*：zh开头的是语料文件，目录结构：根目录下包含metadata.csv和语音文件目录。一个说话人对应一个子目录，音频是mp3格式。metadata.csv的数据结构和metadata的一样，记录当前数据集的信息。
 
 ## 统计信息
 
@@ -59,6 +74,8 @@ from aukit import linear_spectrogram, mel_spectrogram, world_spectrogram
 - n_speaker：说话人个数。
 - sentence_W：文本数目，单位：万条。
 - size_MB：音频占用存储空间，单位：MB。
+
+注意：**total**是全部数据集合集的结果。
 
 ```
 {
