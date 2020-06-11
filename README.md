@@ -75,7 +75,9 @@ from aukit import linear_spectrogram, mel_spectrogram, world_spectrogram
 - sentence_W：文本数目，单位：万条。
 - size_MB：音频占用存储空间，单位：MB。
 
-注意：**total**是全部数据集合集的结果。
+注意：
+1. **total**是全部数据集合集的结果。
+2. 音频的采样率是16k。
 
 ```
 {
