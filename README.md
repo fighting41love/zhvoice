@@ -14,6 +14,9 @@ zhvoice语料包含文本、语音和说话人3个方面的信息，可适用于
 
 zhvoice语料由[智浪淘沙](https://github.com/zhilangtaosha)清洗和处理。
 
+zhvoice语料githup项目是[zhvoice](https://github.com/KuangDD/zhvoice)。
+
+
 ## 处理方法
 - 用python的工具模块[**aukit**](https://github.com/KuangDD/aukit)处理音频，降噪和去除静音。
 
