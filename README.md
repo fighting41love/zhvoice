@@ -1,20 +1,18 @@
 # 中文语音语料
 
-**zhvoice**: Chinese voice corpus
+[**zhvoice**](https://github.com/KuangDD/zhvoice): Chinese voice corpus
 
 tips: 中文或汉语的语言简称缩写是**zh**。
 
 ## 语料简介
 
-zhvoice语料由8个开源数据集，经过降噪和去除静音处理而成，音频约900小时，文本约113万条，共有约1300万字。
+zhvoice语料由8个开源数据集，经过降噪和去除静音处理而成，说话人约3200个，音频约900小时，文本约113万条，共有约1300万字。
 
 zhvoice语料比较原始数据而言，更加清晰和自然，减少了噪声的干扰，减少了因说话人说话不连贯造成的不自然。
 
 zhvoice语料包含文本、语音和说话人3个方面的信息，可适用于多种语音相关的任务。
 
 zhvoice语料由[智浪淘沙](https://github.com/zhilangtaosha)清洗和处理。
-
-zhvoice语料githup项目是[zhvoice](https://github.com/KuangDD/zhvoice)。
 
 
 ## 处理方法
