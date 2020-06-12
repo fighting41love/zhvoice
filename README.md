@@ -6,7 +6,7 @@
 
 tips: 中文或汉语的语言简称缩写是**zh**。
 
-tips：喜欢请**star**！You are my superstar!
+喜欢请**star**！You are my superstar!
 
 ## 语料简介
 
