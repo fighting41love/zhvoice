@@ -1,3 +1,5 @@
+![zhvoice](zhvoice.png)
+
 # 中文语音语料
 
 [**zhvoice**](https://github.com/KuangDD/zhvoice): Chinese voice corpus
